@@ -12,6 +12,8 @@ import { ScreenTypes } from '../../types'
 import { convertSeconds } from '../../utils/helpers'
 
 import Button from '../ui/Button'
+// Import the PNG image as a file path
+import MyImage from '../../assets/images/app-logo.png' 
 
 const AppTitle = styled.h2`
   font-weight: 700;
@@ -48,7 +50,7 @@ const QuizDetailsScreen = () => {
     <PageCenter light justifyCenter>
       <CenterCardContainer>
         <LogoContainer>
-          <AppLogo />
+          <img src={MyImage} alt="App Logo" />
         </LogoContainer>
         <AppTitle>खुशियों का गढ़ छत्तीसगढ़ - क्विज चैलेंज </AppTitle>
         <DetailTextContainer>

@@ -200,6 +200,9 @@ import ModalWrapper from '../ui/ModalWrapper'
 import Question from './Question'
 import QuizHeader from './QuizHeader'
 
+// Import the PNG image as a file path
+import MyImage from '../../assets/images/app-logo.png' 
+
 const QuizContainer = styled.div<{ selectedAnswer: boolean }>`
   width: 900px;
   min-height: 500px;
@@ -343,7 +346,7 @@ const QuestionScreen: FC = () => {
   return (
     <PageCenter>
       <LogoContainer>
-        <AppLogo />
+      <img src={MyImage} alt="App Logo" />
       </LogoContainer>
       <QuizContainer selectedAnswer={selectedAnswer.length > 0}>
         <QuizHeader

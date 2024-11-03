@@ -33,7 +33,7 @@ export const themes: Record<string, Theme> = {
       darkerGray: '#817a8e',
     },
     fonts: {
-      anekMalayalam: 'Anek Malayalam',
+      anekMalayalam: 'Poppins',
     },
     shadows: {
       activeButton: '3px 2px 22px 1px rgba(0, 0, 0, 0.24)',
@@ -78,7 +78,7 @@ export const themes: Record<string, Theme> = {
       darkerGray: '#817a8e',
     },
     fonts: {
-      anekMalayalam: 'Anek Malayalam',
+      anekMalayalam: 'Poppins',
     },
     shadows: {
       activeButton: '3px 2px 22px 1px rgba(0, 0, 0, 0.24)',
