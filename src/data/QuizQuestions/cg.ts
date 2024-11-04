@@ -280,9 +280,9 @@ export const cg: Topic = {
       },
       {
         question: 'छत्तीसगढ़ में "रावत नाचा" किस जनजाति का लोक नृत्य है?',
-        choices: ['गोंड', 'रावत', 'बैगा', 'मुरिया'],
+        choices: ['गोंड', 'राउत', 'बैगा', 'मुरिया'],
         type: 'MCQs',
-        correctAnswers: ['रावत'],
+        correctAnswers: ['राउत'],
         score: 5,
       },
       {
