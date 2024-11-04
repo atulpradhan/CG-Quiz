@@ -13,6 +13,9 @@ import QuizImage from '../ui/QuizImage'
 import ResultOverview from './ResultOverview'
 import RightAnswer from './RightAnswer'
 
+// Import the PNG image as a file path
+import MyImage from '../../assets/images/app-logo.png' 
+
 const ResultScreenContainer = styled.div`
   max-width: 900px;
   margin: 60px auto;
