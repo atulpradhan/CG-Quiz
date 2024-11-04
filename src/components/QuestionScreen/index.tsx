@@ -346,7 +346,7 @@ const QuestionScreen: FC = () => {
   return (
     <PageCenter>
       <LogoContainer>
-      <img src={MyImage} alt="App Logo" />
+        <img src={MyImage} alt="App Logo" />
       </LogoContainer>
       <QuizContainer selectedAnswer={selectedAnswer.length > 0}>
         <QuizHeader
