@@ -143,7 +143,7 @@ export const cg: Topic = {
         choices: ['तीसरा', 'आंठवाँ', 'पाँचवाँ','सातवां',],
         type: 'MAQs',
         correctAnswers: [
-          'ओडिशा',
+          'तीसरा',
       ],
         score: 5,
       },
