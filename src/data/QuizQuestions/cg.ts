@@ -199,9 +199,9 @@ export const cg: Topic = {
       },
       {
         question: 'छत्तीसगढ़ का राजकीय पशु कौन सा है?',
-        choices: ['बाघ', 'जंगली भालू', 'गौर', 'नीलगाय'],
+        choices: ['बाघ', 'जंगली भालू', 'वन भैंसा', 'नीलगाय'],
         type: 'MCQs',
-        correctAnswers: ['गौर'],
+        correctAnswers: ['वन भैंसा'],
         score: 5,
       },
       {
