@@ -131,7 +131,7 @@ const ResultScreen: FC = () => {
   return (
     <ResultScreenContainer>
       <LogoContainer>
-        <AppLogo />
+        <img src={MyImage} alt="App Logo" />
       </LogoContainer>
       <InnerContainer>
         <ResultOverview result={result} />
