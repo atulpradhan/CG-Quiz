@@ -10,7 +10,7 @@ export const cg: Topic = {
   level: 'Advanced',
   totalQuestions: 20,
   totalScore: 100,
-  totalTime: 60,
+  totalTime: 90,
   questions: [
     {
       question:
